@@ -1,0 +1,47 @@
+{
+  "rooms": [
+    {
+      "id": "room a",
+      "description": "A very boring room that has an exit.",
+      "exits": [
+        {
+          "name": "exit 1",
+          "room id": "room b"
+        },
+        {
+          "name": "exit 2",
+          "room id": "room a"
+        }
+      ]
+    },
+    {
+      "id": "room b",
+      "description": "Another very boring room.",
+      "exits": [
+        {
+          "name": "exit 3",
+          "room id": "room c"
+        },
+        {
+          "name": "exit 4",
+          "room id": "room a"
+        }
+      ]
+    },
+    {
+      "id": "room c",
+      "description": "Another very very boring room.",
+      "exits": [
+        {
+          "name": "exit 5",
+          "room id": "room b"
+        },
+        {
+          "name": "exit 6",
+          "room id": "room a"
+        }
+      ]
+    }
+  ],
+  "start room": "room a"
+}

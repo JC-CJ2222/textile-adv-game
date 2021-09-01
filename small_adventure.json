@@ -1,0 +1,134 @@
+{
+  "rooms": [
+    {
+      "id": "room a",
+      "description": "Room a is the starting point of this adventure.",
+      "exits": [
+        {
+          "name": "room b",
+          "room id": "room b"
+        },
+        {
+          "name": "room c",
+          "room id": "room c"
+        }
+      ],
+      "score": 0,
+      "trivias": [
+        {
+          "question": "What is 1 + 1?",
+          "options": [
+            "A : 1",
+            "B : 2",
+            "C : 3",
+            "D : 4"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What is 1 - 1?",
+          "options": [
+            "A : 0",
+            "B : 1",
+            "C : 2",
+            "D : window"
+          ],
+          "answer": "A"
+        }
+      ],
+      "room key": {
+        "key type": "room a",
+        "key des": "this key opens room a"
+      },
+      "prize key": {
+        "key type": "room b",
+        "key des": "this key opens room b"
+      }
+    },
+    {
+      "id": "room b",
+      "description": "Another very boring room.",
+      "exits": [
+        {
+          "name": "room c",
+          "room id": "room c"
+        },
+        {
+          "name": "room a",
+          "room id": "room a"
+        }
+      ],
+      "score": 30,
+      "trivias": [
+        {
+          "question": "What is 2 + 1?",
+          "options": [
+            "A : 1",
+            "B : 2",
+            "C : 3",
+            "D : 4"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "What is 2 - 1?",
+          "options": [
+            "A : 0",
+            "B : 1",
+            "C : 2",
+            "D : window"
+          ],
+          "answer": "B"
+        }
+      ],
+      "room key": {
+        "key type": "room b",
+        "key des": "this key opens room b"
+      },
+      "prize key": {
+        "key type": "room c",
+        "key des": "this key opens room c"
+      }
+    },
+    {
+      "id": "room c",
+      "description": "Room c is the treasure room.",
+      "exits": [],
+      "score": 100,
+      "trivias": [
+        {
+          "question": "",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": ""
+        },
+        {
+          "question": "",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": ""
+        }
+      ],
+      "room key": {
+        "key type": "room c",
+        "key des": "This key was empty :("
+      },
+      "prize key": {
+        "key type": "broken key",
+        "key des": "This key broke up with someone at Day Hall."
+      }
+    }
+  ],
+  "start room": "room a",
+  "help": "do help",
+  "treasure room": "room c",
+  "incorrect": 1
+}

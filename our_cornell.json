@@ -1,0 +1,574 @@
+{
+  "rooms": [
+    {
+      "id": "day hall",
+      "description": "You are in Day Hall. There is a welcome desk. Around you are visiting high school students and lost college students.",
+      "exits": [
+        {
+          "name": "north campus",
+          "room id": "north"
+        },
+        {
+          "name": "west campus",
+          "room id": "west"
+        },
+        {
+          "name": "central campus",
+          "room id": "central"
+        },
+        {
+          "name": "collegetown",
+          "room id": "collegetown"
+        }
+      ],
+      "score": 0,
+      "trivias": [
+        {
+          "question": "What is the first letter in the Alphabet?",
+          "options": [
+            "A : A",
+            "B : B",
+            "C : C",
+            "D : D"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "1+1?",
+          "options": [
+            "A : 0",
+            "B : 1",
+            "C : 2",
+            "D : window"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "Where is Cornell University located?",
+          "options": [
+            "A : New York",
+            "B : Florida",
+            "C : California",
+            "D : Canada"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "When was Cornell University founded?",
+          "options": [
+            "A : 1791",
+            "B : 1865",
+            "C : 2019",
+            "D : 3110"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Who was the first president of Cornell University?",
+          "options": [
+            "A : George Washington",
+            "B : Donald Trump",
+            "C : Erza Cornell",
+            "D : Andrew White"
+          ],
+          "answer": "D"
+        }
+      ],
+      "room key": {
+        "key type": "day hall",
+        "key des": "This key is for day hall."
+      },
+      "prize key": {
+        "key type": "north",
+        "key des": "Type 'unlock north' to unlock the rooms under north. After unlocking, try an exit: north campus, central campus, west campus, collegetown."
+      }
+    },
+    {
+      "id": "north",
+      "description": "You are at the entrance to North Campus. Freshmen are walking to and from class.",
+      "exits": [
+        {
+          "name": "balch hall",
+          "room id": "north"
+        },
+        {
+          "name": "high rise 5",
+          "room id": "north"
+        },
+        {
+          "name": "helen newman hall",
+          "room id": "north"
+        },
+        {
+          "name": "RPCC",
+          "room id": "food"
+        }
+      ],
+      "score": 10,
+      "trivias": [
+        {
+          "question": "What is the other name for the North Star?",
+          "options": [
+            "A : Polar Bear",
+            "B : Polar Vortex",
+            "C : Polaris",
+            "D : Polaroid"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "On what belt is the North Star located?",
+          "options": [
+            "A : Big Dipper",
+            "B : Little Dipper",
+            "C : 2",
+            "D : window"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What is 5*4?",
+          "options": [
+            "A : 20",
+            "B : 21",
+            "C : 22",
+            "D : 10"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What was the first building constructed on Cornell's Campus?",
+          "options": [
+            "A : Morill Hall",
+            "B : Sage Hall",
+            "C : Baker Lab",
+            "D : Duffield Hall"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "Which was the first women dormatory?",
+          "options": [
+            "A : Balch Hall",
+            "B : Goldwin Smith Hall",
+            "C : Sage Hall",
+            "D : Becker Hall"
+          ],
+          "answer": "C"
+        }
+      ],
+      "room key": {
+        "key type": "north",
+        "key des": "This key is for north."
+      },
+      "prize key": {
+        "key type": "food",
+        "key des": "Type 'unlock food' to unlock rooms under food. After unlocking, try an exit: balch hall, high rise 5, helen newman hall, RPCC."
+      }
+    },
+    {
+      "id": "food",
+      "description": "It is time to eat! You are surprised by the amount of avaliable options. But, soon realized that the food is rather bland.",
+      "exits": [
+        {
+          "name": "appel commons",
+          "room id": "food"
+        },
+        {
+          "name": "jansen",
+          "room id": "food"
+        },
+        {
+          "name": "okenshields",
+          "room id": "central"
+        },
+        {
+          "name": "CTB",
+          "room id": "food"
+        }
+      ],
+      "score": 50,
+      "trivias": [
+        {
+          "question": "Where did hamburger originate?",
+          "options": [
+            "A : Hamburg, Germany",
+            "B : London, UK",
+            "C : New York, USA",
+            "D : Mexico City, Mexico"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "How many dining halls are on North Campus?",
+          "options": [
+            "A : 2",
+            "B : 4",
+            "C : 6",
+            "D : 8"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "20 mod 4?",
+          "options": [
+            "A : 5",
+            "B : 0",
+            "C : 2",
+            "D : 1"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "20 / 4?",
+          "options": [
+            "A : 5",
+            "B : 0",
+            "C : 2",
+            "D : 1"
+          ],
+          "answer": "As"
+        },
+        {
+          "question": "Where did pizza originate?",
+          "options": [
+            "A : America",
+            "B : Spain",
+            "C : France",
+            "D : Italy"
+          ],
+          "answer": "D"
+        }
+      ],
+      "room key": {
+        "key type": "food",
+        "key des": "This key is for food locations."
+      },
+      "prize key": {
+        "key type": "central",
+        "key des": "Type 'unlock central' to unlock rooms under central. After unlocking, try an exit: appel commons, jansen, okenshields, CTB"
+      }
+    },
+    {
+      "id": "central",
+      "description": "You are in the central! It is Cornell's center of learning.",
+      "exits": [
+        {
+          "name": "baker lab",
+          "room id": "central"
+        },
+        {
+          "name": "jacks",
+          "room id": "collegetown"
+        },
+        {
+          "name": "kennedy hall",
+          "room id": "central"
+        },
+        {
+          "name": "bethe house",
+          "room id": "west"
+        },
+        {
+          "name": "dairy bar",
+          "room id": "food"
+        }
+      ],
+      "score": 20,
+      "trivias": [
+        {
+          "question": "Why did the chicken cross the road?",
+          "options": [
+            "A : To get to Cornell University",
+            "B : To meet its death",
+            "C : To get to the other side",
+            "D : This is stupid"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "Describe Cornell students.",
+          "options": [
+            "A : Stuck-up Ivy League students",
+            "B : Rich Internationals",
+            "C : Cornellians",
+            "D : Cornell does not exist"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "Which element has a full octet?",
+          "options": [
+            "A : Sodium",
+            "B : Fluorine",
+            "C : Argon",
+            "D : Iron"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "Which of the following is a paramagnetic substance?",
+          "options": [
+            "A : Water",
+            "B : Nickel",
+            "C : Iron",
+            "D : Platinum"
+          ],
+          "answer": "D"
+        },
+        {
+          "question": "Which of the following is an aromatic amino acid?",
+          "options": [
+            "A : Tryptophan",
+            "B : Leucine",
+            "C : Serine",
+            "D : Valine"
+          ],
+          "answer": "A"
+        }
+      ],
+      "room key": {
+        "key type": "central",
+        "key des": "This key is for central."
+      },
+      "prize key": {
+        "key type": "west",
+        "key des": "Type 'unlock west' to unlock rooms under west. After unlocking, try an exit: baker lab, jacks, kennedy hall, bethe house, dairy bar"
+      }
+    },
+    {
+      "id": "west",
+      "description": "You walk down the slope to West Campus and is exhausted. You wonder how you can get rid of the slope.",
+      "exits": [
+        {
+          "name": "becker house",
+          "room id": "west"
+        },
+        {
+          "name": "oishii bowl",
+          "room id": "collegetown"
+        },
+        {
+          "name": "baker lab",
+          "room id": "central"
+        },
+        {
+          "name": "duffield",
+          "room id": "duffield"
+        },
+        {
+          "name": "terrace",
+          "room id": "food"
+        }
+      ],
+      "score": 10,
+      "trivias": [
+        {
+          "question": "How many steps do you need to climb to get up to the clock tower?",
+          "options": [
+            "A : 155",
+            "B : 161",
+            "C : 178",
+            "D : 192"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "Which is not a dining hall on West Campus?",
+          "options": [
+            "A : Alice",
+            "B : Bethe",
+            "C : Cook",
+            "D : Rose"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What time does Jansen's Market close on a weekday?",
+          "options": [
+            "A : 12 AM",
+            "B : 1 AM",
+            "C : 2 AM",
+            "D : 3 AM"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What century was the Westward Expansion/ Manifest Destiny in United States?",
+          "options": [
+            "A : 17th century",
+            "B : 18th century",
+            "C : 19th century",
+            "D : 20th century"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "About 500 years ago, the lands in the Western Hemisphere was called the ___?",
+          "options": [
+            "A : New World",
+            "B : Old World",
+            "C : Middle World",
+            "D : Western World"
+          ],
+          "answer": "A"
+        }
+      ],
+      "room key": {
+        "key type": "west",
+        "key des": "This key is for West."
+      },
+      "prize key": {
+        "key type": "collegetown",
+        "key des": "Type 'unlock collegetown'. After unlocking, try an exit: becker house, oishii bowl, baker lab, duffield, terrace"
+      }
+    },
+    {
+      "id": "collegetown",
+      "description": "Washed up college students with no place to live.",
+      "exits": [
+        {
+          "name": "7-11",
+          "room id": "collegetown"
+        },
+        {
+          "name": "macs cafe",
+          "room id": "food"
+        },
+        {
+          "name": "starbucks",
+          "room id": "collegetown"
+        },
+        {
+          "name": "baker lab",
+          "room id": "central"
+        },
+        {
+          "name": "rose house",
+          "room id": "west"
+        }
+      ],
+      "score": 40,
+      "trivias": [
+        {
+          "question": "What was the first major at Cornell University?",
+          "options": [
+            "A : History of Cornell",
+            "B : Math",
+            "C : American Studies",
+            "D : Engineering"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "How many Starbucks locations are in Ithaca?",
+          "options": [
+            "A : 1",
+            "B : 2",
+            "C : 3",
+            "D : 4"
+          ],
+          "answer": "C"
+        },
+        {
+          "question": "How many food locations are in Collegetown?",
+          "options": [
+            "A : 10",
+            "B : 15",
+            "C : 20",
+            "D : 25"
+          ],
+          "answer": "D"
+        },
+        {
+          "question": "2+2?",
+          "options": [
+            "A : 4",
+            "B : 3",
+            "C : 2",
+            "D : 1"
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "What is the abbrevition of Collegetown Bagels?",
+          "options": [
+            "A : CTI",
+            "B : BTS",
+            "C : EXO",
+            "D : CTB"
+          ],
+          "answer": "D"
+        }
+      ],
+      "room key": {
+        "key type": "collegetown",
+        "key des": "This key is for Collegetown."
+      },
+      "prize key": {
+        "key type": "duffield",
+        "key des": "Type 'unlock duffield'. After unlocking, try an exit: 7-11, macs cafe, starbucks, baker lab, rose house. Find the treasure room!! Hint: the treasure room is where we exhausted our minds making this game engine. The founder of this building was the founder of Workday."
+      }
+    },
+    {
+      "id": "duffield",
+      "description": "Congratulations! You have reached us! Get your treasure, from yours truely : Hadi, Viola, Kartikay, Susan.",
+      "exits": [],
+      "score": 100,
+      "trivias": [
+        {
+          "question": "Why was 6 afraid of 7?",
+          "options": [
+            "A : Because 4,5,6",
+            "B : Because 7,8,9"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What did sushi A say to sushi B?",
+          "options": [
+            "A : sashimi",
+            "B : was-bi"
+          ],
+          "answer": "B"
+        },
+        {
+          "question": "What do elves learn in school?",
+          "options": [
+            "A : the a,b,c",
+            "B : the elf-abet"
+          ],
+          "answer": "D"
+        },
+        {
+          "question": "Why is the corner of a room always the warmest?",
+          "options": [
+            "A : Because its 90 degrees.",
+            "B : Because I can sit in a corner."
+          ],
+          "answer": "A"
+        },
+        {
+          "question": "How to spell win?",
+          "options": [
+            "A : Win!",
+            "B : Lose!"
+          ],
+          "answer": "A"
+        }
+      ],
+      "room key": {
+        "key type": "duffield",
+        "key des": "This key is for duffield."
+      },
+      "prize key": {
+        "key type": "day hall",
+        "key des": "This key unlocks day hall."
+      }
+    }
+  ],
+  "start room": "day hall",
+  "help": "If you are in a new room/ don't have key, please type 'trivia'. After passing trivia, you have won a key type and this is automatically added to your inventory. Type 'take KEY_TYPE(eg. north)', so you can have access to all the rooms under the location KEY_TYPE(eg. north). 'drop KEY_TYPE' makes you lose access to rooms under location KEY_TYPE. 'take KEY_TYPE' enables you to pick up the dropped key but only in the location you dropped the key! Type 'unlock KEY_TYPE(eg. north)' to proceed to the rooms under that location. Do not try to unlock/go to nonexisting room names or take/drop nonexisting key types, else error! 'lock KEY_TYPE' locks the rooms under location KEY_TYPE. Please go to the room name exactly as they are north campus, not North Campus.",
+  "treasure room": "duffield",
+  "incorrect": 4
+}

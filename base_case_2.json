@@ -1,0 +1,15 @@
+{
+  "rooms": [
+    {
+      "id": "room a",
+      "description": "A very boring room.",
+      "exits": []
+    },
+    {
+      "id": "room b",
+      "description": "Another very boring room.",
+      "exits": []
+    }
+  ],
+  "start room": "room a"
+}
